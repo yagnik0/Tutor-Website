@@ -125,6 +125,29 @@ img {
   font-size: 1.6rem;
 }
 
+/* =========== Hero Styling ========== */
+
+.hero {
+  background: #000 url(images/header-background.jpg) center center/cover no-repeat;
+  padding: 11.5rem 2rem 8rem;
+  color: #fff;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.hero .hero-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6rem;
+  padding-bottom: 8rem;
+}
+
+.hero h1{
+  font-size: 3.5rem;
+  
+}
+
 /* =========== Media Queries ========== */
 
 @media (max-width: 1200px) {
